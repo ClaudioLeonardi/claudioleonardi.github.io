@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mi página</title>
+<style>
+body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+		
+		.container {
+			display: flex;
+			flex-direction: row;
+			height: 100vh;
+		}
+
+		.col1 {
+			background-color: #f2f2f2;
+			width: 30%;
+			height: 100%;
+			padding: 20px;
+			box-sizing: border-box;
+			text-align: justify;
+		}
+
+
+		.col2 {
+			width: 70%;
+			height: 100%;
+			padding: 20px;
+			box-sizing: border-box;
+		}
+
+		.row {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			margin: -10px;
+			align-items: center;
+			justify-content: space-between;
+			height: 50%;
+		}
+
+		.box {
+			width: calc(33.33% - 20px);
+			height: auto;
+			padding: 10px;
+			box-sizing: border-box;
+			margin: 10px;
+			border: 1px dotted #ccc;
+		}
+
+         .line {
+			border-right: 1px dotted #ccc;
+			height: 100%;
+			margin: 0 20px;
+		}
+
+		h2 {
+			margin: 0 0 10px;
+		}
+
+		p {
+			margin: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="col1">
+			<!-- Columna fija a la izquierda -->
+			<h2>TEMAS</h2>
+		<p><span style="color: rgb(0, 155, 155); font-size: 20px ;font-weight:bold">Actividad</span> exportadora,
+			Adaptabilidad, Análisis de datos, Análisis y tratamiento de riesgos, Asociación, Auditora PAACO, <span style="color: rgb(0, 155, 155); font-size: 20px ;font-weight:bold">Bienestar</span> Animal, BRCGS,  
+			<span style="color: rgb(0, 155, 155); font-size: 20px ;font-weight:bold">Cadena</span> de valor, Calidad, Capacitación, Competencia, Costos ocultos de la no calidad, Cultura organizacional, Curriculum Vitae,
+			<span style="color: rgb(0, 155, 155); font-size: 20px ;font-weight:bold">Desarrollo </span>de Cadena, Desarrollo de negocio, <span style="color: rgb(0, 155, 155); font-size: 20px ;font-weight:bold">Eficientización</span>, Estrategias, 
+			<span style="color: rgb(0, 155, 155); font-size: 20px ;font-weight:bold">Facultad </span>Social, Formación Profesional, FSMA,
+			<span style="color: rgb(0, 155, 155); font-size: 20px ;font-weight:bold">Herramientas </span> PyMes, Honorarios profesionales,
+			<span style="color: rgb(0, 155, 155); font-size: 20px ;font-weight:bold">Identificación </span> de Procesos, Inbound, Innovación, ISO 9001,
+			<span style="color: rgb(0, 155, 155); font-size: 20px ;font-weight:bold">Legislación, </span> LSQA, <span style="color: rgb(0, 155, 155); font-size: 20px ;font-weight:bold">Marketing, </span>Mejora Continua, 
+			<span style="color: rgb(0, 155, 155); font-size: 20px ;font-weight:bold">Objetivos, </span>Oportunidades de negocios, Organismo de Acreditación, Organismo de Certificación,
+			<span style="color: rgb(0, 155, 155); font-size: 20px ;font-weight:bold">Procesos, </span>Productividad, Programa de apoyo a las PyMes,
+			<span style="color: rgb(0, 155, 155); font-size: 20px ;font-weight:bold">Rediseño </span>organizacional, Reingeniería de procesos, <span style="color: rgb(0, 155, 155); font-size: 20px ;font-weight:bold">Sistema </span>de Gestión de la Calidad, Subsidios específicos
+			</p>
+		</div>
+
+		<div class="col2">
+			<!-- Columna del 70% restante -->
+			<section>
+		<h3>¿Una nueva forma de implementar?</h3> 
+		<p>La Real Academia Española define al termino asociativo como al adjetivo que asocia o que resulta de una asociación o tiende a ella, no obstante lo cual, en mayor o menor medida hemos oído el término antes nombrado, asociando su significado a una <span style= "font-style: italic">facultad social de los individuos como un medio de sumar esfuerzos y compartir ideales a través de la asociación de personas para dar respuestas colectivas a determinadas necesidades o problemas</span>.</p> 
+		</section>
+          <section>
+            <div class="row">
+
+				<div class="box">
+					<h3>Los costos (ocultos) de la NO Calidad</h3>
+					<img src="https://jenslatterysblog.files.wordpress.com/2019/04/icebrg.jpeg" alt="icono de skills"style= width:100px;height:100x;>
+					<p>Hace unos años atrás, no tantos mi devenir profesional me puso frente a un empresario PyME, de una empresa con (a pesar de su tamaño) mucha representatividad en su sector que no solo fabricaba su marca propia...</p>
+				</div>
+
+				<div class="box">
+					<h3>Box 2</h3>
+					<img src="https://via.placeholder.com/150" alt="Imagen 2">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+
+				<div class="box">
+					<h3>Box 3</h3>
+					<img src="https://via.placeholder.com/150" alt="Imagen 3">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+        </section>
+<section>
+	<div style="text-align:center;">
+		<img src="imagenes/anterior.png" style="display:inline-block; margin-right:10px; margin-top: 20px; width:30px;height:30px;">
+		<img src="imagenes/sig1.png" style="display:inline-block; margin-right:10px; width:30px;height:40px;">
+		<img src="imagenes/sig1.png" style="display:inline-block; margin-right:10px;width:30px;height:40px;">
+		<img src="imagenes/sig3.png" style="display:inline-block; margin-right:10px;width:30px;height:40px;">....
+		<img src="imagenes/sig1.png" style="display:inline-block; margin-right:10px;width:30px;height:40px;">
+		<img src="imagenes/siguiente.png" style="display:inline-block; width:30px;height:30px;">
+	  </div>
+</section>
